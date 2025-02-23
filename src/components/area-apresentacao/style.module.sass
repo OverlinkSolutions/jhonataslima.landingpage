@@ -1,0 +1,77 @@
+.container
+  width: 100%
+  height: 90vh
+  background-color: #f0f0f0
+  display: flex
+  position: relative
+  font-family: 'cali', sans-serif
+
+.leftArea
+  width: 40%
+  height: 100%
+  background-color: #210068
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+
+.infoArea
+  width: 100%
+  background-color: #f0f0f0
+  color: #210068
+  font-size: 1.8rem
+  font-weight: bold
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: flex-start
+  gap: 30px
+  position: absolute 
+  padding: 30px 20px
+  top: 50% 
+  left: 65% 
+  transform: translate(-50%, -50%) 
+  z-index: 10 
+  border-radius: 5px
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5)
+
+#animatedText 
+  display: inline-block
+  color: #1887FF
+  font-weight: bold
+  transition: all 1.3s ease
+
+#description
+  color: #818181
+  font-size: 1rem
+  line-height: 1.3
+  text-align: justify
+  font-weight: 500
+
+#contact
+  color: #818181
+  font-size: 1rem
+  font-weight: bold
+  background: rgb(36,34,188)
+  background: linear-gradient(0deg, rgba(36,34,188,1) 0%, rgba(17,15,86,1) 100%)
+  padding: 15px 30px
+  text-decoration: none
+  color: #fff
+  border-radius: 5px
+  margin-top: 20px
+  &:hover
+    //background: rgb(36,34,188)
+    background: linear-gradient(0deg, #18169e 0%, #080735 100%)
+   
+
+.rightArea
+  width: 60%
+  height: 100%
+  background-image: url('/assets/imgDescricao.svg') 
+  background-size: cover 
+  background-position: center 
+  background-repeat: no-repeat
+  object-fit: cover 
+  display: flex
+  justify-content: center
+  align-items: center
