@@ -5,7 +5,7 @@ import imgAtuacao from "../../../public/assets/imgAtuacao.svg";
 
 export default function AreaAreasAtuacao() {
   return (
-    <section className={style.container}>
+    <section className={style.container} id="atuacao">
       <div className={style.title}>
         <h3>Áreas de atuação</h3>
         <span className={style.line}></span>

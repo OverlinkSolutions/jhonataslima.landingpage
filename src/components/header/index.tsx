@@ -18,16 +18,16 @@ export default function Header()  {
         <nav>
           <ul>
             <li><Link href="/"/>HOME</li>
-            <li>SOBRE</li>
-            <li>ÁREAS DE ATUAÇÃO</li>
-            <li>CONTATO</li>
+            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#atuacao">ÁREAS DE ATUAÇÃO</a></li>
+            <li><a href='#contato'>CONTATO</a></li>
           </ul>
         </nav>
      </div>
      <div className={style.area_contato}>
-        <div id={style.icon}>
+        {/* <div id={style.icon}>
             <Image src={iconeMsgHeader} width={20} height={20} alt="icone de mensagem" />
-        </div>
+        </div> */}
         <div className={style.info}>
           <p id={style.titulo}>Fale conosco</p>
           <p id={style.numero}>(79) 99628-4351</p>

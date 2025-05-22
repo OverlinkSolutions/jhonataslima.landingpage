@@ -17,7 +17,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.bottom}>
-        <p>© {new Date().getFullYear()} Meu Site. Todos os direitos reservados.</p>
+        <p>© {new Date().getFullYear()} Jhônatas Lima - Advocacia Especializada. Todos os direitos reservados.</p>
       </div>
     </footer>
   );
