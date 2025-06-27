@@ -1,6 +1,7 @@
 import AreaApresentacao from "@/components/area-apresentacao";
 import AreaAreasAtuacao from "@/components/area-areas-atuacao";
 import AreaSobreAdv from "@/components/area-sobre-adv";
+import StoreLocation from "@/components/localizacao";
 
 export const metadata = {
   title: 'Jhônatas Lima Melo - Advocacia Especializada',
@@ -16,6 +17,7 @@ export default function Home() {
       <AreaApresentacao />
       <AreaSobreAdv />
       <AreaAreasAtuacao />
+      <StoreLocation />
     </>
   );
 }

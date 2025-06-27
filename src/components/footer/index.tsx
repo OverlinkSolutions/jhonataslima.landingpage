@@ -10,9 +10,9 @@ export default function Footer() {
         </div>
 
         <div className={styles.social}>
-          <Link href="https://facebook.com" target="_blank">Facebook</Link>
-          <Link href="https://instagram.com" target="_blank">Instagram</Link>
-          <Link href="https://linkedin.com" target="_blank">LinkedIn</Link>
+          {/* <Link href="https://facebook.com" target="_blank">Facebook</Link> */}
+          <Link href="https://www.instagram.com/jhonataslima.adv?igsh=MThjbHE2Z3BkNHc1eQ==" target="_blank">Instagram</Link>
+          {/* <Link href="https://linkedin.com" target="_blank">LinkedIn</Link> */}
         </div>
       </div>
 

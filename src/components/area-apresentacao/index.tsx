@@ -59,7 +59,7 @@ export default function AreaApresentacao() {
             Histórias e participem ativamente do catolicismo sem qualquer
             impedimento ou restrição.
           </p>
-          <a href="" id={style.contact}>Fale conosco</a>
+          <a href="https://wa.me/5579999619499" target="_blank" id={style.contact}>Fale conosco</a>
         </div>
       </div>
       <div className={style.rightArea}></div>

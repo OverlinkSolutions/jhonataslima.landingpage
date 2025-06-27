@@ -30,7 +30,7 @@ export default function Header()  {
         </div> */}
         <div className={style.info}>
           <p id={style.titulo}>Fale conosco</p>
-          <p id={style.numero}>(79) 99628-4351</p>
+          <a href="https://wa.me/5579999619499" target='_blank'><p id={style.numero}>(79) 99628-4351</p></a>
         </div>
      </div>
     </header>
