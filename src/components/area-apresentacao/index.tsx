@@ -48,9 +48,16 @@ export default function AreaApresentacao() {
       <div className={style.leftArea}>
         <div className={style.infoArea}>
           <h1>
-            Advocacia Especializada na Área da Nulidade Matrimonial e Direito Imobiliário com{" "}
-            <span id={style.animatedText}>{displayedWord}</span>
+            Advocacia Especializada na Área da Nulidade Matrimonial e Direito
+            Imobiliário com{" "}
+            <span id={style.animatedText}>
+              <span className={style.wordWrapper}>
+                {displayedWord}
+                <span className={style.placeholder}>Excelência</span>
+              </span>
+            </span>
           </h1>
+
           <p id={style.description}>
             Defendemos o direito do “Recomeçar”, ou melhor, direcionar,
             acompanhar e instruir para que o casamento católico seja declarado
@@ -59,7 +66,13 @@ export default function AreaApresentacao() {
             Histórias e participem ativamente do catolicismo sem qualquer
             impedimento ou restrição.
           </p>
-          <a href="https://wa.me/5579996284351" target="_blank" id={style.contact}>Fale conosco</a>
+          <a
+            href="https://wa.me/5579996284351"
+            target="_blank"
+            id={style.contact}
+          >
+            Fale conosco
+          </a>
         </div>
       </div>
       <div className={style.rightArea}></div>

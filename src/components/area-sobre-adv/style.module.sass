@@ -3,15 +3,21 @@
   margin-top: 50px
   display: flex
   padding: 20px
+  gap: 40px
 
 .areaImg
   width: 50%
+  height: 600px
   display: flex
   justify-content: center
   align-items: center
-  #imgAdv
-    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5)
 
+.imgAdv
+  width: 100%
+  max-width: 400px
+  height: 600px
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5)
+  border-radius: 8px
 
 .areaInfoAdv
   width: 50%
@@ -19,15 +25,88 @@
   flex-direction: column
   text-align: start
   margin-left: -60px
+
   h2
     font-family: 'Times New Roman', Times, serif
     font-size: 2.5em
     font-weight: lighter
     letter-spacing: 2px
     color: #210068
+
+  span
+    font-size: 1.1em
+    font-weight: 500
+    margin-top: 5px
+    color: #444
+    font-family: 'inter', sans-serif
+
   p
     font-size: 1.2em
     color: #1E1E1E
     margin-top: 20px
     font-weight: 300
     font-family: 'cali', sans-serif
+    line-height: 1.2
+
+// ========== RESPONSIVO ==========
+
+// Tablets (<= 1024px)
+@media screen and (max-width: 1024px)
+  .container
+    flex-direction: column
+    align-items: center
+    padding: 40px 20px
+    gap: 30px
+
+  .areaImg,
+  .areaInfoAdv
+    width: 100%
+    margin-left: 0
+  
+  .imgAdv
+    max-width: 400px
+    height: 550px
+
+  .areaInfoAdv
+    text-align: center
+    h2
+      font-size: 2.2em
+    span
+      font-size: 1em
+    p
+      font-size: 1.1em
+      text-align: justify
+
+// Celulares (<= 768px)
+@media screen and (max-width: 768px)
+  .container
+    padding: 30px 15px
+    gap: 2px
+
+  .imgAdv
+    max-width: 350px
+    height: 500px
+
+  .areaInfoAdv
+    padding: 0 20px
+    h2
+      font-size: 2em
+    span
+      font-size: 0.95em
+    p
+      font-size: 1em
+
+// Celulares pequenos (<= 480px)
+@media screen and (max-width: 480px)
+  .container
+    padding: 20px 10px
+    gap: 20px
+
+  .imgAdv
+    max-width: 220px
+
+  .areaInfoAdv
+    h2
+      font-size: 1.8em
+    p
+      font-size: 0.95em

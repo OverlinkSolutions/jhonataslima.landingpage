@@ -12,7 +12,7 @@ export default function Footer() {
         <div className={styles.social}>
           {/* <Link href="https://facebook.com" target="_blank">Facebook</Link> */}
           <Link href="https://www.instagram.com/jhonataslima.adv?igsh=MThjbHE2Z3BkNHc1eQ==" target="_blank">Instagram</Link>
-          {/* <Link href="https://linkedin.com" target="_blank">LinkedIn</Link> */}
+          <a href="https://wa.me/5579996284351" target='_blank'><p>Whatsapp</p></a>
         </div>
       </div>
 
