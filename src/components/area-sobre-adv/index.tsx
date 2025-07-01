@@ -14,6 +14,7 @@ export default function AreaSobreAdv() {
           width={400}
           height={600}
           priority
+          unoptimized 
         />
       </div>
       <div className={style.areaInfoAdv}>
