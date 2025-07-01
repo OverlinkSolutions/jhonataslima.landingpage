@@ -1,18 +1,16 @@
 import style from "./style.module.sass";
 import Image from "next/image";
 
-import imgAdv from "public/assets/img-jhonatas-info.jpeg";
+import imgAdv from "../../../public/img-jhonatas-info.jpeg";
 
 export default function AreaSobreAdv() {
   return (
     <section className={style.container} id="sobre">
       <div className={style.areaImg}>
         <Image
-          src="/images/img-jhonatas-info.jpeg"
+          src={imgAdv}
           alt="Jhônatas Lima"
           className={style.imgAdv}
-          width={400}
-          height={600}
           priority
         />
       </div>
