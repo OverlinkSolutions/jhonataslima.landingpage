@@ -1,7 +1,7 @@
 import style from "./style.module.sass";
 import Image from "next/image";
 
-import imgAdv from "../../../public/img-jhonatas-info.jpeg";
+import imgAdv from "../../../public/assets/img-jhonatas-info.jpeg";
 
 export default function AreaSobreAdv() {
   return (
