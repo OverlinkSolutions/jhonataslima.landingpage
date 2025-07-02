@@ -18,7 +18,15 @@ export default function Header() {
   return (
     <header className={style.container}>
       <div className={style.logo}>
-        <Image src={logoHeader} width={140} height={80} alt="logo do escritório" />
+      <Image
+          src="/assets/logoHeader.png"
+          alt="Jhônatas Lima Melo - Advocacia"
+          className={style.imgAdv}
+          width={130}
+          height={75}
+          priority
+          unoptimized 
+        />
       </div>
 
       <div className={style.hamburger} onClick={toggleMenu}>
