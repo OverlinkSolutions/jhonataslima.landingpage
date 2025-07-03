@@ -37,9 +37,10 @@ export default function Header() {
         <nav>
           <ul>
             <li><Link href="/">HOME</Link></li>
-            <li><a href="#sobre">SOBRE</a></li>
-            <li><a href="#atuacao">ÁREAS DE ATUAÇÃO</a></li>
-            <li><a href="#contato">CONTATO</a></li>
+            <li><a href="/#sobre">SOBRE</a></li>
+            <li><a href="/#atuacao">ÁREAS DE ATUAÇÃO</a></li>
+            <li><a href="/#contato">LOCALIZAÇÃO</a></li>
+            <li><Link href="/artigos">ARTIGOS</Link></li>
           </ul>
         </nav>
       </div>
