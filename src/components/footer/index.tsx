@@ -34,7 +34,7 @@ export default function Footer() {
       <div className={styles.developedBy}>
         Desenvolvido por{" "}
         <a
-          href="https://www.linkedin.com/in/marcos-machado-6530881b6/"
+          href="https://www.instagram.com/marcos_sillva__?igsh=MXI1ZjZwYWk3bHk3cA%3D%3D&utm_source=qr"
           target="_blank"
         >
           Marcos M.

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import style from "./style.module.sass";
 import Image from "next/image";
 
@@ -28,7 +29,6 @@ export default function AreaSobreAdv() {
           declaração de nulidade de seu matrimônio, com uma abordagem
           acolhedora, ética e esclarecedora.
         </p>
-
         <p>
           Graduado em Direito pela Universidade Tiradentes, é especialista em
           Direito Imobiliário pela Faculdade Legale e especialista em Nulidades
@@ -36,7 +36,6 @@ export default function AreaSobreAdv() {
           Conceição (Sergipe). Atualmente, é especializando em Licitações e
           Contratos Públicos pela Faculdade CERS.
         </p>
-
         <p>
           Com sólida formação e sensibilidade no trato de temas tão íntimos e
           pessoais, Jhônatas atua ao lado de seus clientes com escuta atenta,
@@ -44,12 +43,12 @@ export default function AreaSobreAdv() {
           canônico, da preparação documental até o acompanhamento junto aos
           Tribunais Eclesiásticos.
         </p>
-
         <p>
           Acredita que cada história merece ser tratada com respeito e
           singularidade, oferecendo uma advocacia que une rigor técnico, cuidado
           humano e profundo respeito à fé e aos valores de cada pessoa.
         </p>
+        <Link href={"/artigos"} id={style.linkArtigos}>Orientações jurídicas e reflexões: leia os artigos</Link>
       </div>
     </section>
   );

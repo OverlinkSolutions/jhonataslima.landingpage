@@ -1,0 +1,55 @@
+.container
+  width: 100%
+  height: auto
+  margin: 0px auto 0px auto
+  padding: 30px 80px 50px 80px
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  color: #222
+  background-color: #f0f4f8
+
+  h1
+    font-size: 2rem
+    margin-bottom: 1rem
+    color: #2c3e50
+    text-align: center
+
+  p
+    font-size: 1.1rem
+    line-height: 1.6
+    margin-bottom: 2rem
+    text-align: center
+    color: #555
+
+.listaArtigos
+  list-style: none
+  padding: 0
+  display: grid
+  gap: 1rem
+
+  li
+    background-color: #f9f9f9
+    padding: 1rem 1.5rem
+    border-radius: 10px
+    transition: background-color 0.3s ease, transform 0.2s ease
+
+    a
+      color: #1a73e8
+      text-decoration: none
+      font-weight: 500
+      font-size: 1.05rem
+      display: inline-block
+
+    &:hover
+      background-color: #eef5ff
+      transform: scale(1.02)
+
+@media (max-width: 600px)
+  .container
+    padding: 1rem
+
+  .listaArtigos li a
+    font-size: 1rem
+    line-height: 1.4
+    
+
+

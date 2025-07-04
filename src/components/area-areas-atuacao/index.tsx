@@ -2,6 +2,7 @@ import Image from "next/image";
 import style from "./style.module.sass";
 
 import imgAtuacao from "../../../public/assets/imgAtuacao.svg";
+import Link from "next/link";
 
 export default function AreaAreasAtuacao() {
   return (
@@ -22,7 +23,7 @@ export default function AreaAreasAtuacao() {
               acompanhar e instruir para que o casamento católico seja declarado
               Nulo pelo Tribunal Eclesiástico.
             </p>
-            <a href="http://">Saiba mais</a>
+            <Link href={"/artigos"} id={style.linkArtigos}>Saiba mais</Link>
           </div>
         </div>
         <div className={style.card}>
@@ -38,7 +39,7 @@ export default function AreaAreasAtuacao() {
               <li>Regularização fundiária</li>
               <li>Direito urbanístico e planejamento imobiliário</li>
             </ul>
-            <a href="http://">Saiba mais</a>
+            <Link href={"/artigos"} id={style.linkArtigos}>Saiba mais</Link>
           </div>
         </div>
         <div className={style.card}>
@@ -53,7 +54,7 @@ export default function AreaAreasAtuacao() {
               <li>Disputas sucessórias</li>
               <li>Aspectos tributários da sucessão</li>
             </ul>
-            <a href="http://">Saiba mais</a>
+            <Link href={"/artigos"} id={style.linkArtigos}>Saiba mais</Link>
           </div>
         </div>
       </div>
