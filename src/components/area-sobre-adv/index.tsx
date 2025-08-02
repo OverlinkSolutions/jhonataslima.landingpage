@@ -8,14 +8,14 @@ export default function AreaSobreAdv() {
   return (
     <section className={style.container} id="sobre">
       <div className={style.areaImg}>
-      <Image
+        <Image
           src="/assets/img-jhonatas-info.jpeg"
           alt="Jhônatas Lima"
           className={style.imgAdv}
           width={400}
           height={600}
           priority
-          unoptimized 
+          unoptimized
         />
       </div>
       <div className={style.areaInfoAdv}>
@@ -48,7 +48,10 @@ export default function AreaSobreAdv() {
           singularidade, oferecendo uma advocacia que une rigor técnico, cuidado
           humano e profundo respeito à fé e aos valores de cada pessoa.
         </p>
-        <Link href={"/artigos"} id={style.linkArtigos}>Orientações jurídicas e reflexões: leia os artigos</Link>
+        <Link href="/artigos" id={style.linkArtigos}>
+          Orientações jurídicas e reflexões: leia os artigos{" "}
+          <span className={style.arrow}>➜</span>
+        </Link>
       </div>
     </section>
   );

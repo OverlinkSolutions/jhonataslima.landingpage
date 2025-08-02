@@ -73,7 +73,7 @@ export default function Header() {
 
       <div className={style.area_contato}>
         <div className={style.info}>
-          <p id={style.titulo}>Fale conosco</p>
+          <p id={style.titulo}>Contate-nos!</p>
           <a href="https://wa.me/5579996284351" target="_blank">
             <p id={style.numero}>(79) 99628-4351</p>
           </a>

@@ -71,7 +71,7 @@ export default function AreaApresentacao() {
             target="_blank"
             id={style.contact}
           >
-            Fale conosco
+            Contate-nos!
           </a>
         </div>
       </div>
