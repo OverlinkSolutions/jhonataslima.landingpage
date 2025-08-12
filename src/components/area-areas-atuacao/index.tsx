@@ -14,7 +14,14 @@ export default function AreaAreasAtuacao() {
       <div className={style.cards}>
         <div className={style.card}>
           <div className={style.cardImage}>
-            <Image src={imgAtuacao} width={350} height={280} alt={""} />
+            <Image
+              src="/assets/NulidadeMatrimonial.png"
+              width={350}
+              height={280}
+              alt={""}
+              priority
+              unoptimized
+            />
           </div>
           <div className={style.cardInfo}>
             <h4>Nulidade Matrimonial</h4>
@@ -23,12 +30,21 @@ export default function AreaAreasAtuacao() {
               acompanhar e instruir para que o casamento católico seja declarado
               Nulo pelo Tribunal Eclesiástico.
             </p>
-            <Link href={"/artigos"} id={style.linkArtigos}>Saiba mais</Link>
+            <Link href={"/artigos"} id={style.linkArtigos}>
+              Saiba mais
+            </Link>
           </div>
         </div>
         <div className={style.card}>
           <div className={style.cardImage}>
-            <Image src={imgAtuacao} width={350} height={280} alt={""} />
+            <Image
+              src="/assets/DireitoImobiliario.png"
+              width={350}
+              height={280}
+              alt={""}
+              priority
+              unoptimized
+            />
           </div>
           <div className={style.cardInfo}>
             <h4>Direito Imobiliário</h4>
@@ -39,12 +55,21 @@ export default function AreaAreasAtuacao() {
               <li>Regularização fundiária</li>
               <li>Direito urbanístico e planejamento imobiliário</li>
             </ul>
-            <Link href={"/artigos"} id={style.linkArtigos}>Saiba mais</Link>
+            <Link href={"/artigos"} id={style.linkArtigos}>
+              Saiba mais
+            </Link>
           </div>
         </div>
         <div className={style.card}>
           <div className={style.cardImage}>
-            <Image src={imgAtuacao} width={350} height={280} alt={""} />
+            <Image
+              src="/assets/DireitoSucessorio.png"
+              width={350}
+              height={280}
+              alt={""}
+              priority
+              unoptimized
+            />
           </div>
           <div className={style.cardInfo}>
             <h4>Direito Sucessório</h4>
@@ -54,7 +79,9 @@ export default function AreaAreasAtuacao() {
               <li>Disputas sucessórias</li>
               <li>Aspectos tributários da sucessão</li>
             </ul>
-            <Link href={"/artigos"} id={style.linkArtigos}>Saiba mais</Link>
+            <Link href={"/artigos"} id={style.linkArtigos}>
+              Saiba mais
+            </Link>
           </div>
         </div>
       </div>

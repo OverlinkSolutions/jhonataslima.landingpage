@@ -1,3 +1,4 @@
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import styles from "./style.module.sass";
 import Link from "next/link";
 
@@ -11,15 +12,23 @@ export default function Footer() {
           </div>
 
           <div className={styles.social}>
-            {/* <Link href="https://facebook.com" target="_blank">Facebook</Link> */}
             <Link
               href="https://www.instagram.com/jhonataslima.adv?igsh=MThjbHE2Z3BkNHc1eQ=="
               target="_blank"
+              className={styles.socialLink}
             >
+              <FaInstagram className={styles.icon} />
               Instagram
             </Link>
-            <a href="https://wa.me/5579996284351" target="_blank">
-              <p>Whatsapp</p>
+
+            <a
+              href="https://wa.me/5579996284351"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.socialLink}
+            >
+              <FaWhatsapp className={styles.icon} />
+              WhatsApp
             </a>
           </div>
         </div>

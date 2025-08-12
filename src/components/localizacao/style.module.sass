@@ -1,25 +1,70 @@
 .storeLocation
-  width: 100%,
-  height: 400px
+  display: flex
+  gap: 50px
+  padding: 40px
+  align-items: flex-start
+  justify-content: center
+  font-family: 'cali', sans-serif
+
+.mapContainer
+  width: 50%
+  min-width: 300px
+  height: 350px
+
+.divider
+  width: 2px
+  background-color: #ccc
+  height: 250px
+  margin-top: 50px
+
+.infoContainer
+  width: 30%
   display: flex
   flex-direction: column
-  align-items: center
-  justify-content: center
+  gap: 15px
+  min-width: 250px
+
+.infoContainer h1
+  font-size: 1.8rem
+  margin-bottom: 10px
+  &::after
+    content: ''
+    display: block
+    width: 25px
+    height: 2px
+    background-color: #210068
+    margin-top: 5px
+
+.infoContainer ul
+  list-style: none
+  padding: 0
+  margin: 0
+  display: flex
+  flex-direction: column
   gap: 20px
-  padding: 20px
-  background-color: #fcfcfc,
-  box-shadow: 0px 0px 5px 0px #cacaca,
-  font-family: 'cali', sans-serif !important
 
-.storeLocationText
-  width: 100%
-  padding: 20px
-  margin: 0px
-  font-family: Roboto, sans-serif
-  text-align: center
-  aligna-items: center
-  color: #3C3C3B
+.infoContainer li
+  display: flex
+  align-items: center
+  gap: 10px
+  font-size: 1rem
+  color: #444
+  font-weight: 600
 
-.storeLocationMap
-  width: 100%
-  height: 100%
+.icon
+  color: #210068
+  font-size: 1.3rem
+
+/* Responsivo */
+@media (max-width: 768px)
+  .storeLocation
+    flex-direction: column
+
+  .divider
+    display: none
+
+  .mapContainer
+    height: 300px
+
+  .infoContainer h1
+    text-align: center

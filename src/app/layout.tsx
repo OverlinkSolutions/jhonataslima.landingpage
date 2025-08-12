@@ -2,6 +2,7 @@
 import Header from "@/components/header";
 import "./globals.css";
 import Footer from "@/components/footer";
+import HeaderTop from "@/components/header-top/HeaderTop";
 
 
 export default function RootLayout({
@@ -12,6 +13,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
+        <HeaderTop />
         <Header />
         {children}
         <Footer />

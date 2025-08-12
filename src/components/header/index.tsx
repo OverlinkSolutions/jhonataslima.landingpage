@@ -54,9 +54,9 @@ export default function Header() {
             <li>
               <Link href="/artigos">ARTIGOS</Link>
             </li>
-            <li>
+            {/* <li>
               <a href="/#contato">LOCALIZAÇÃO</a>
-            </li>
+            </li> */}
             <li className={style.somenteMobile}>
               <a
                 href="https://wa.me/5579996284351"
